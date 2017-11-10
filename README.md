@@ -12,4 +12,4 @@ npm install
 npm start
 ````
 
-A local version of the project can be viewed at [http://localhost:3000/](http://localhost:3000/).
+A local version of the project can be viewed at [http://localhost:3001/](http://localhost:3001/).
