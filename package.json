@@ -1,0 +1,27 @@
+{
+  "name": "weather_dash",
+  "version": "1.0.0",
+  "description": "Visual representation of a specific weather data set",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuclearError/WeatherDash.git"
+  },
+  "author": "Angela Cullen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NuclearError/WeatherDash/issues"
+  },
+  "homepage": "https://github.com/NuclearError/WeatherDash#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "supertest": "^3.0.0"
+  }
+}
