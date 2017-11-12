@@ -5,14 +5,21 @@
 	<title>Weather Dash</title>
 
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" href="/css/styles.min.css"> -->
+	<style>
+        h1 { font-size: 20px; font-weight: normal; margin: 20px 0 0; color: #666; }
+        #output { text-align: center; }
+        g text { stroke: none; fill: #666; font-size: 12px; }
+        .x-axis-label, .y-axis-label { font-size: 14px; }
+    </style>
   </head>
   <body>
-    <h1>Weather Dash</h1>
 
-    <div id="output"></div>
+    <div class="container" role="main">
+        <div id="output">
+            <h1>Surface Temperature (C) over 24 hours on 2nd October 2015</h1>
+        </div>
+    </div>
 
-    <script src="/papaparse.js"></script>
     <script src="https://dc-js.github.io/dc.js/js/d3.js"></script>
     <script src="https://dc-js.github.io/dc.js/js/crossfilter.js"></script>
     <script src="https://dc-js.github.io/dc.js/js/dc.js"></script>
